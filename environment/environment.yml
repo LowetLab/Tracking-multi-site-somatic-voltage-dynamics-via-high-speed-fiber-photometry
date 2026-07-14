@@ -1,0 +1,16 @@
+# Conda environment for this pipeline (Python side).
+# Create with:   conda env create -f environment.yml
+# Update with:   conda env update -f environment.yml --prune
+# Activate with: conda activate fiber-pipeline
+name: fiber-pipeline
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=2.2
+  - scipy>=1.15
+  - matplotlib>=3.10
+  - h5py>=3.12
+  - pip
+  - pip:
+      - fooof>=1.0

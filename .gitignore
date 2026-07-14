@@ -1,0 +1,25 @@
+# Local path overrides -- machine-specific, never commit (see config/README.md)
+config/paths_local.m
+config/paths_local.py
+
+# Python bytecode / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Output / data directories created automatically when the pipeline is run
+# NOTE: no bare "Figures/" rule here -- on case-insensitive filesystems
+# (Windows, default macOS) that would also match the "figures/" *source*
+# folder above. Users generating a real output Figures/ dir should exclude
+# it via a local (untracked) .git/info/exclude entry instead.
+/Process/
+/BaselineData/
+/Artifact_masks/
+run_nonrun/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.asv

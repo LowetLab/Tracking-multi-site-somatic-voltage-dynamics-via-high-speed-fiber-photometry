@@ -1,0 +1,13 @@
+# Python dependencies for this pipeline (figure plotting).
+# Version floors match the known-good environment (Python 3.12). Install with:
+#     pip install -r requirements.txt
+# or use the conda environment.yml instead.
+
+numpy>=2.2
+scipy>=1.15
+matplotlib>=3.10
+h5py>=3.12          # read MATLAB v7.3 .mat files
+fooof>=1.0          # aperiodic (1/f) PSD decomposition, used by figures/Fig2_locomotion_spectral/fig4_fooof.py
+
+# Optional:
+# mat73>=0.60        # fallback loader for large MATLAB v7.3 files in phase_amplitude_coupling/
