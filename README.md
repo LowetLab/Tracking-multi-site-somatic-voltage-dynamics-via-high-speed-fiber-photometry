@@ -46,10 +46,12 @@ to every main-text and supplementary figure.
 | **Fig 4** | Population (fiber) DBS response, 40 vs 135 Hz | [`spectral_analysis/`](spectral_analysis/) (`run_stim_spectral_pipeline.m`) | [`figures/Fig4_population_dbs/`](figures/Fig4_population_dbs/) |
 | **Fig 5** | Single-cell (cellular) DBS response | [`preprocessing/cellular_imaging/`](preprocessing/cellular_imaging/) | [`figures/Fig5_singlecell_dbs/`](figures/Fig5_singlecell_dbs/) |
 | **Fig 6** | Bilateral CA1 cross-correlation & phase-locking | [`preprocessing/fiber_photometry/`](preprocessing/fiber_photometry/), [`spectral_analysis/`](spectral_analysis/) | [`figures/Fig6_bilateral_ca1/`](figures/Fig6_bilateral_ca1/) |
+| **Fig 7 (E-H)** | Dual-color, multi-animal fiber voltage imaging during DBS | — (input: a single pre-extracted `all_traces` `.mat` file) | [`figures/Fig7_dualcolor_multianimal/`](figures/Fig7_dualcolor_multianimal/) |
 | Suppl. Fig 1 | Photobleaching control | — | [`figures/Supplementary/`](figures/Supplementary/) |
 | Suppl. Fig 2 | Striatal DBS | [`spectral_analysis/`](spectral_analysis/) | `figures/Fig4_population_dbs/stimulation_analysis.py --mode striatum-dbs` |
 
-Figure 7 (dual-color multi-animal fiber imaging) is not included in this release.
+Figure 7 panels A-D (optical setup schematic, cage photo, FOV image, histology) were assembled
+by hand and are not reproduced here.
 
 ## Pipeline overview
 
